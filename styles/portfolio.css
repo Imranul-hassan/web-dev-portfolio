@@ -15,6 +15,9 @@
 .dark-2{
     color: rgb(71, 71, 71);
 }
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     border-radius: 10px;
     background: rgb(255, 248, 243);
@@ -38,6 +41,7 @@
     font-size: 18px;
     color: rgb(117, 117, 117);
 }
+
 /* header */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -100,15 +104,21 @@ main{
     margin: 0 auto;
 
 }
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 /* about styles */
-.about{
+.about {
     border-radius: 10px;
     padding: 100px 120px; 
     text-align: center;
-    margin-top: 130px;
     margin-left: 150px;
     margin-right: 150px;
+}
+.about-part{
+    background-color: white;
 }
 .about-items{
     display: flex;
@@ -117,4 +127,20 @@ main{
 .item-description{
     font-weight: 700;
 
+}
+
+/* Skills section styles */
+.skills{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
 }
